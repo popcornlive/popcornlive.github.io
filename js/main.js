@@ -9,6 +9,7 @@ addButtons.forEach(btn => {
   btn.addEventListener("click", () => {
     count++;
     cartCountEls.forEach(el => el.textContent = count);
+    alert("Added to cart");
   });
 });
 
